@@ -26,6 +26,13 @@
     margin-right: 80px;
 }
 
+
+@media screen and (max-width: 414px){
+    .title-projects h1 {
+        margin-left: 0px !important;
+    }
+}
+
 @media screen and (max-width: 576px){
     .title-projects h1 {
         margin-left: 0px !important;
@@ -59,3 +66,5 @@
     }
     
 }
+
+
