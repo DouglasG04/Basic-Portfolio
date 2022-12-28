@@ -27,6 +27,9 @@
 }
 
 @media screen and (max-width: 576px){
+    .title-projects h1 {
+        margin-left: 0px !important;
+    }
     .project-evidence img{
         width: 350px;
         height: auto;
@@ -43,7 +46,9 @@
 }
 
 @media screen and (max-width: 990px){
-    
+    .title-projects h1 {
+        margin-left: 0px !important;
+    }
 
     .card-project1{
         margin-left: 0px !important;
