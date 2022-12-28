@@ -4,4 +4,40 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+:root {
+    --darkGrey: #1c1c1e;
+}
 
+body {
+    background-color: var(--darkGrey) !important;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+header{
+    background-color: #1c1c1e;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    z-index: 111;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.nav-item a {color: #fff;}
+
+
+.nav-item a:hover {
+    color: #c86bfa;
+    border-bottom: 1px solid #c86bfa;
+    transition: all 0.3s ease-in-out;
+}

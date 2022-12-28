@@ -1,0 +1,56 @@
+#projects{
+    color: #fff;
+}
+.line {
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 1em;
+}
+
+.title-projects h1 {
+    color: #d00000;
+    font-weight: 700;
+    margin: 100px 0px 10px 95px;
+}
+
+.project-evidence img{
+    width: 550px;
+    height: auto;
+}
+
+.card-project1{
+    margin-left: 80px;
+}
+
+.card-project2{
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 576px){
+    .project-evidence img{
+        width: 350px;
+        height: auto;
+    }
+
+    .card-project1{
+        margin-left: 0px !important;
+    }
+    
+    .card-project2{
+        margin-right: 0px !important;
+    }
+    
+}
+
+@media screen and (max-width: 990px){
+    
+
+    .card-project1{
+        margin-left: 0px !important;
+    }
+    
+    .card-project2{
+        margin-right: 0px !important;
+    }
+    
+}

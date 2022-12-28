@@ -7,3 +7,13 @@
     background-size: cover;
     background-position: center center;
 }
+
+@media screen and (max-width: 576px){
+    .text-hero h3{
+        font-size: 19px;
+    }
+    .text-hero h1{
+        font-size: 19px;
+    }
+    
+}

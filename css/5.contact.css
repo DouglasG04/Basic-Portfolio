@@ -1,0 +1,15 @@
+.title-contact h1{
+    color: #c86bfa;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.links-contact i{
+    font-size: 80px;
+    color: #343a40;
+}
+
+.links-contact i:hover{
+    color: #c86bfa;
+    transition: all 0.4s ease-in-out;
+}
